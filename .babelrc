@@ -1,12 +1,13 @@
 {
   "presets": [
-    "es2015",
-    "react"
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-flow"
   ],
   "plugins": [
     "syntax-async-functions",
-    "transform-class-properties",
-    "transform-object-rest-spread",
-    "transform-regenerator"
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-regenerator"
   ]
 }
